@@ -1,0 +1,33 @@
+{
+  "massive": {
+    "base_url": "https://api.massive.com",
+    "ticker": "AAPL",
+    "probe": {
+      "path": "/v3/reference/tickers?ticker=AAPL&limit=1",
+      "ok": true,
+      "code": 200,
+      "body": {
+        "results": [
+          {
+            "ticker": "AAPL",
+            "name": "Apple Inc.",
+            "market": "stocks",
+            "locale": "us",
+            "primary_exchange": "XNAS",
+            "type": "CS",
+            "active": true,
+            "currency_name": "usd",
+            "cik": "0000320193",
+            "composite_figi": "BBG000B9XRY4",
+            "share_class_figi": "BBG001S5N8V8",
+            "last_updated_utc": "2025-11-15T07:06:07.223291106Z"
+          }
+        ],
+        "status": "OK",
+        "request_id": "b718e0c332ce8e1f2d2bbda2828984ad",
+        "count": 1
+      }
+    },
+    "status": "ok"
+  }
+}

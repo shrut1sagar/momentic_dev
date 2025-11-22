@@ -1,0 +1,6 @@
+{
+  "massive": {
+    "status": "error",
+    "error": "MASSIVE_API_KEY missing"
+  }
+}

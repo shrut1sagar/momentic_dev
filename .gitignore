@@ -1,0 +1,30 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Builds / tooling
+build/
+dist/
+*.egg-info/
+
+# Data artifacts
+data/raw/
+data/processed/
+data/results/
+state/run_log.sqlite
+
+# Logs
+*.log
